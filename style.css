@@ -26,28 +26,29 @@ label {
 }
 
 input {
-    border: 1px solid transparent;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0px;
+    
+    border: 1rem solid transparent;
+    border-bottom: .1rem solid #ccc;
+    padding: .1rem 0;
 }
 
 input[type=text],
 input[type=number],
 input[type=date],
 input[file] {
-    width: 400px;
+    width: 40rem;
 }
 
 textarea {
-    padding: 10px 5px;
-    width: 400px;
+    padding: 1rem .5rem;
+    width: 40rem;
 }
 /*cabeçalho da pagina*/
 
 .header{
-    height: 60px;
-    padding: 20px;
-    border-bottom: 1px solid #777;
+    height: 1rem;
+    padding: 2rem;
+    border-bottom: .1rem solid #777;
     background-color: transparent;
     backdrop-filter: blur(9px);
     
@@ -66,41 +67,41 @@ text-align: center;
 
 .form-container{
     background-color: #fff;
-    width: 60%;
+    width: 50%;
     
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 50px;
-    border: 1px solid #ff4800;
+    top: 3rem;
+    border: .1rem solid #ff4800;
     background-color: transparent;
     backdrop-filter: blur(9px);
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 /*cabeçaljo do formulario*/
 
 
 .form-header{
-    border-bottom:  1px solid #ff4800;
-    height: 45px;
+    border-bottom:  .1rem solid #ff4800;
+    height: 4.5rem;
 
 }
 
 .form-header p {
     color: #ffffff;
-    width: 100px;
+    
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 3.0rem;
 }
 
 /*corpo do formulario*/
 
 .form-body{
-padding: 30px;
+padding: .1rem;
 }
 
 .form-title{
@@ -111,17 +112,17 @@ padding: 30px;
     color: #ff0000;
 }
 .box-input{
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .block{
     display: block;
-    border-radius: 10px;
+    border-radius: 1.0rem;
 }
 
 .optional_box{
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 3rem;
 }
 
 .option_list{
@@ -137,13 +138,13 @@ padding: 30px;
 
     background-color: #ff4800;
     color: #fff;
-    border: 2px solid transparent;
-    width: 150px;
-    height: 50px;
+    border: .2rem solid transparent;
+    width: 10rem;
+    height: 3.5rem;
     text-transform: uppercase;
     cursor: pointer;
     transition: .5s;
-    border-radius: 10px;
+    border-radius: 1.0rem;
 }
 .btn-submit:hover{
     background-color: #fff;
@@ -151,3 +152,30 @@ padding: 30px;
     color: #ff4800;
 }
 
+
+@media (max-width: 851px){
+    
+    .form-container{
+        
+        width: 70%;
+        border: .1rem solid  #ff4800;
+        
+    }
+    .form-header p {
+        color: #ffffff;
+        font-size: 30px;
+        
+
+    }
+    textarea {
+        width: 20rem;
+    }
+  
+    input[type=text],
+    input[type=number],
+    input[type=date],
+    input[file] {
+        width: 20rem;
+    }
+  
+  
